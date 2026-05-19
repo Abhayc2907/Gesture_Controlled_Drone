@@ -2,7 +2,7 @@
 
 A gesture‑controlled drone that maps hand tilt to roll/pitch commands using an ESP32‑based handheld controller (MPU6050 + LDR) and a LiteWing ESP32 programmable drone. The system uses a Python ground station to read serial gesture data from the ESP32, apply a dead-zone and exponential smoothing, and convert the values into RPYT setpoints over Wi‑Fi. The control script disables high-level commander mode, arms the drone with zero-thrust packets, and then continuously sends either flight commands or an emergency stop depending on the trigger state, enabling low‑altitude, real‑time human–drone interaction for prototyping and education.
 
-Key features
+Key features:
 
 1.Wearable ESP32 gesture controller with MPU6050 IMU and LDR trigger
 
@@ -18,7 +18,7 @@ Key features
 
 Low‑cost, reproducible design
 
-Hardware
+Hardware:
 
 1.LiteWing ESP32‑S3 drone
 
@@ -30,7 +30,7 @@ Hardware
 
 5.LiPo battery for the drone, USB power for the controller
 
-Software
+Software:
 
 1.ESP32 firmware (Arduino / PlatformIO) — IMU read, complementary filter, serial output
 
