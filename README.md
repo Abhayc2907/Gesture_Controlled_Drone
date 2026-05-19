@@ -36,4 +36,3 @@ Software
 
 2.Python 3 ground station — pyserial, cflib, and timing control
 
-Optional utilities: plotting and logging tools for testing and tuning
