@@ -3,7 +3,7 @@ import serial
 import cflib.crtp
 from cflib.crazyflie import Crazyflie
 
-DRONE_URI   = "udp://192.168.43.42"
+DRONE_URI   = "udp://192.168.44.42"
 SER_PORT    = "COM6"
 SER_BAUD    = 115200
 
